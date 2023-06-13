@@ -1,0 +1,28 @@
+parameters:
+  - name: name_racer
+    in: query
+    description: name of the racer
+    required: true
+    type: string
+  - name: company
+    in: query
+    description: company of the racer
+    required: true
+    type: string
+  - name: abbriviation
+    in: query
+    description: abbriviation of the racer
+    required: true
+    type: string
+  - name: time
+    in: query
+    description: time of the racer
+    required: true
+    type: string
+responses:
+  '200':
+    description: all success
+  '500':
+    description: your data is not valid
+
+

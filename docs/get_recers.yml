@@ -1,0 +1,13 @@
+get:
+  parameters:
+    - name: format
+      in: path
+      description: format of the file
+      required: true
+      type: string
+responses:
+  '200':
+    description: All success
+  '500':
+    description: this format not supported
+  

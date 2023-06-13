@@ -1,0 +1,23 @@
+parameters:
+  - name: racer_id
+    in: query
+    description: racer_id
+    required: true
+    type: integer
+  - name: neme_racer
+    in: query
+    description: new name of the racer
+    required: false
+    type: string
+    default: 
+  - name: time
+    in: query
+    description: new time of the racer
+    required: false
+    default: 
+responses:
+  '200':
+    description: All success
+  '500': 
+    description: Your racer not in the list
+    

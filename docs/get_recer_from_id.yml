@@ -1,0 +1,13 @@
+get:
+  parameters:
+    - name: racer_id
+      in: path
+      description: id of the driver
+      required: true
+      type: integer
+responses:
+  '200':
+    description: All success
+  '500':
+    description: racer with this id is not in the list
+  

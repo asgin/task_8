@@ -1,0 +1,11 @@
+parameters:
+  - name: rac_id
+    in: query
+    description: racer id
+    required: true
+    type: integer
+responses:
+  '200':
+    description: all success
+  '500':
+    description: your racer id is not valid
